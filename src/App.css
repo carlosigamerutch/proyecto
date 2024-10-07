@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* Estilo para el botón "Registrarse" */
+.btn.btn-primary.registrarse {
+  background: linear-gradient(to right, #20b0f1, #2ae860);
   color: white;
+  border: 1px solid #20b0f1;
+  transition: background-color 0.3s, color 0.3s;
 }
 
-.App-link {
-  color: #61dafb;
+/* Efecto hover para el botón "Registrarse" */
+.btn.btn-primary.registrarse:hover {
+  background: linear-gradient(to right, #2ae860, #20b0f1);
+  color: #333;
+  border: 1px solid #2ae860;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Estilo para el botón "Probar Guías Interactivas" */
+.btn.btn-primary.custom-button {
+  background: linear-gradient(to right, #2ae860, #20b0f1,#2ae860);
+  color: white;
+  border: 1px solid #20b0f1;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Efecto hover para el botón "Probar Guías Interactivas" */
+.btn.btn-primary.custom-button:hover {
+  background: linear-gradient(to right, #20b0f1, #2ae860, #20b0f1);
+  color: #333;
+  border: 1px solid #2ae860;
+}
+
+.btn.btn-secondary.sugerencia {
+  background: linear-gradient(to right, #20b0f1, #2ae860);
+  color: white;
+  border: 1px solid #20b0f1;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn.btn-secondary.sugerencia:hover {
+  background: linear-gradient(to right, #2ae860, #20b0f1);
+  color: #333;
+  border: 1px solid #2ae860;
+}
+
+.btn.btn-secondary.ver-cursos {
+  background: linear-gradient(to right, #2ae860, #20b0f1, #2ae860);
+  color: white;
+  border: 1px solid #2ae860;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn.btn-secondary.ver-cursos:hover {
+  background: linear-gradient(to right, #20b0f1, #2ae860, #20b0f1);
+  color: #333;
+  border: 1px solid #20b0f1;
+}
+
+.btn.btn-secondary.proyecta-utch {
+  background: linear-gradient(to right, #2ae860, #20b0f1);
+  color: white;
+  border: 1px solid #2ae860;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.btn.btn-secondary.proyecta-utch:hover {
+  background: linear-gradient(to right, #20b0f1, #2ae860);
+  color: #333;
+  border: 1px solid #20b0f1;
+}
+
+/* Estilo para el botón "Nosotros" con degradado invertido de azul a verde */
+.btn.btn-primary.nosotros-button {
+  background: linear-gradient(to right, #20b0f1, #2ae860);
+  color: white;
+  border: 1px solid #20b0f1;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Efecto hover para el botón "Nosotros" */
+.btn.btn-primary.nosotros-button:hover {
+  background: linear-gradient(to right, #2ae860, #20b0f1);
+  color: #333;
+  border: 1px solid #2ae860;
+}
+
+/* Estilo para el botón "Ver Rutas" con colores más contrastantes */
+.btn-warning.ver-rutas {
+  background: linear-gradient(to right, #ff8c00, #ff4500);
+  color: white;
+  border: 1px solid #ff4500;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Efecto hover para el botón "Ver Rutas" con colores invertidos */
+.btn-warning.ver-rutas:hover {
+  background: linear-gradient(to right, #ff4500, #ff8c00);
+  color: black; /* Cambiado a negro */
+  border: 1px solid #ff4500;
 }
